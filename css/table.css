@@ -1,0 +1,42 @@
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #9c8181;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: #682e2e;
+    color: white;
+    font-weight: normal;
+    border: 1px solid #9c8181;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__row:nth-child(even) {
+    background-color: #bfb6b6;
+}
+
+.table__row:hover {
+    background-color: #8d7a7a;
+}
+
+
+

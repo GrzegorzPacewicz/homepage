@@ -1,0 +1,38 @@
+.navigation {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1000px;
+    padding: 10px;
+    border-bottom: 1px solid #686666;
+    list-style: none;
+    background: aliceblue;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__link {
+    color: #6a7892;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.navigation__link:visited {
+    color: #0452e2;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    background-color: brown;
+}

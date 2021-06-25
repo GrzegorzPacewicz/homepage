@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.js-body {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    background: aliceblue;
+    margin: auto;
+}
+
+.body--dark {
+    color: #eee;
+    background-color: #494c4e;
+    
+}
+
+.image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px #aab;
+}
+.tableContainer {
+    overflow-x: auto;
+    margin: 0 auto;
+}
+
+.js-button {
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 20px;
+    background-color: #e26c82;
+    margin: 10px;
+    padding: 10px;
+}
